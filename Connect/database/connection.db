@@ -1,0 +1,4 @@
+  host: 'database-connect.cumjjmajipi7.us-east-1.rds.amazonaws.com',
+  user: 'root',
+  password: 'rootroot',
+  database: 'gliese'

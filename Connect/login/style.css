@@ -1,0 +1,73 @@
+.card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 550px;
+    top: calc(50% - 275px);
+    left: 150px;
+    border: 1px solid #56D7DF;
+    border-radius: 20px;
+}
+.background {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: calc(50% - 225px);
+    right: 150px;
+    background: url(../img/background.png);
+    background-size: cover;
+}
+#logo {
+    color: #56D7DF;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+#logo span {
+    font-size: 2em;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+input {
+    margin: 5px 0;
+    padding: 5px;
+    outline: 0;
+    font-size: 1em;
+    color: #555;
+    border-radius: 5px;
+    border: 1px solid #56D7DF;
+    caret-color: #56D7DF;
+}
+button {
+    margin: 15px 0 5px 0;
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #56D7DF;
+    border: 1px solid #56D7DF;
+    border-radius: 5px;
+}
+button:hover {
+    color: #fff;
+    background: #56D7DF;
+}
+.inputs p {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+#email, #cpf {
+    display: none;
+}
+#email.select, #cpf.select {
+    display: block;
+}

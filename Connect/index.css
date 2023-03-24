@@ -1,0 +1,95 @@
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header #logo {
+    color: #56D7DF;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.header #logo span {
+    font-size: 2em;
+}
+.header ul {
+    display: flex;
+    flex-direction: row;
+}
+.header li {
+    padding: 0 15px;
+}
+.header ul li a {
+    color: #555;
+}
+.header ul li a:hover {
+    border-bottom: 3px solid #56D7DF;
+}
+.content {
+    padding: 90px 70px;
+    color: #555;
+}
+.content p {
+    padding: 10px 0;
+    font-weight: 300;
+}
+.content .text {
+    padding: 10px 0;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.content #buttons {
+    padding: 40px 30px;
+}
+.content button {
+    padding: 5px 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    color: #56D7DF;
+    border: 2px solid #56D7DF;
+    border-radius: 7px;
+}
+.content button:hover {
+    color: #fff;
+    background: #56D7DF;
+}
+.content a {
+    color: #56D7DF;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 10px;
+    cursor: pointer;
+}
+.content a:hover {
+    font-size: 1.2em;
+}
+.background {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    width: 450px;
+    height: 450px;
+    background: url(./img/background.png);
+    background-size: cover;
+}
+.chat {
+    position: fixed;
+    z-index: 10;
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 50%;
+    background: url(./img/bot.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #56D7DF;
+    box-shadow: 1px 1px 10px #000a;
+}
+.chat:hover {
+    cursor: pointer;
+}

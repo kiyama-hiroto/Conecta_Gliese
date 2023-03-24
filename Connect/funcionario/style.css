@@ -1,0 +1,110 @@
+.header {
+    width: 100%;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header #logo {
+    color: #56D7DF;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.header #logo span {
+    font-size: 2em;
+}
+.header #log {
+    color: #555;
+    font-weight: 700;
+}
+.header #log:hover {
+    border-bottom: 3px solid #56D7DF;
+    cursor: pointer;
+}
+.content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+    width: 400px;
+    height: 470px;
+    /* border: 1px solid #56D7DF;  */
+}
+.content .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.content .text p {
+    font-size: 3.5em;
+    font-weight: 500;
+}
+.content .text span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.chamados {
+    width: 350px;
+    height: 300px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    border-top: 1px solid #56D7DF; 
+}
+.chamados::-webkit-scrollbar {
+    width: 3px;
+}
+.chamados::-webkit-scrollbar-track {
+    background: #fff; 
+    border-radius: 20px;
+}
+.chamados::-webkit-scrollbar-thumb {
+    background: #56D7DF;
+    background-clip: content-box;
+    border-radius: 20px;
+}
+.chamados .block {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #56D7DF;
+    border-radius: 10px;
+}
+.chamados .block p {
+    font-weight: 600;
+}
+.chamados .block p span {
+    font-weight: 400;
+}
+.chamados .block button {
+    width: 100%;
+    border: 1px solid #16c74b;
+    border-radius: 4px;
+    padding: 4px;
+    color: #16c74b;
+    font-weight: 700;
+}
+.chamados .block button:hover {
+    cursor: pointer; 
+    background: #16c74b;
+    color: #fff;
+}
+.chat {
+    position: absolute;
+    top: calc(50% - 235px);
+    right: 150px;
+    width: 400px;
+    height: 470px;
+    background: url(../img/background.png);
+    background-size: cover;
+}
+.chat:hover {
+    cursor: pointer;
+}
